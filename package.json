@@ -2,16 +2,16 @@
   "name": "november-five-test",
   "version": "1.0.0",
   "description": "November Five Test",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --browser chrome --headless",
+    "cypress": "cypress open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akunchhal/november-five-test.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ankita Kunchhal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akunchhal/november-five-test/issues"
