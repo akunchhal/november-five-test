@@ -1,0 +1,23 @@
+{
+  "name": "november-five-test",
+  "version": "1.0.0",
+  "description": "November Five Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akunchhal/november-five-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akunchhal/november-five-test/issues"
+  },
+  "homepage": "https://github.com/akunchhal/november-five-test#readme",
+  "dependencies": {
+    "cypress": "^13.1.0"
+  }
+}
