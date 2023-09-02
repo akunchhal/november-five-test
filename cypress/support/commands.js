@@ -6,7 +6,7 @@ Cypress.Commands.add("loginWith", (email, password) => {
 });
 
 Cypress.Commands.add("login", () => {
-  return cy.fixture("login.json").then((user) => {
-    return cy.loginWith(user.email, user.password);
-  });
+  return cy
+    .fixture("login.json")
+    .then((user) => cy.loginWith(user.email, user.password));
 });
